@@ -1,7 +1,7 @@
 # Predicting Bank Customer Churn Using Machine Learning
 To predict whether a bank customer churns or not
 
-<br>The given dataset(csv file) for a bank contains
+<br>## The given dataset(csv file) for a bank contains
 | **Column Name**     | **Description**                                                                                  |
 |---------------------|--------------------------------------------------------------------------------------------------|
 | **RowNumber**        | A unique identifier for each row in the dataset, typically used for indexing purposes.            |
@@ -19,4 +19,4 @@ To predict whether a bank customer churns or not
 | **EstimatedSalary**  | The estimated annual salary of the customer.                                                     |
 | **Exited**           | Indicates whether the customer has churned (left the bank) (0 = No, 1 = Yes).                    |
 
-
+##
