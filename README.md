@@ -30,17 +30,17 @@ The objective of this project is to predict whether a bank customer will churn (
 ### Exploaratory Data Analysis:
 * A detailed exploaration of the data is done to understand the key features
 * The data is heavyly skewed towards the people who will not churn.
-* `Visualizations:`
+* **`Visualizations:`**
 > * Histograms of features like CreditScore, Age, and Balance to show their distribution.
 > * Count plots showing customer breakdowns by features such as Gender, HasCrCard, and Geography.
 
 ### Feature Engineering
-* `Encoding Categorical Variables:`
+* **`Encoding Categorical Variables:`**
 > *  Gender was encoded using LabelEncoder.
 > *  Geography was transformed using OneHotEncoder
-* `Drop Unnecessary Columns:`
+* **`Drop Unnecessary Columns:`**
 > *  Drop the unwanted columns (`RowNumber`,`CustomerId`,`Surname`)
-* `Scaling the features`
+* **`Scaling the features`**
 > *  Scale the data using standard scaler
 * Save these encoders and scalers for further use
 
