@@ -22,4 +22,6 @@ The objective of this project is to predict whether a bank customer will churn (
 | **EstimatedSalary**  | The estimated annual salary of the customer.                                                     |
 | **Exited**           | Indicates whether the customer has churned (left the bank) (0 = No, 1 = Yes).                    |
 
-##
+## Approach
+* 1.Create the dataframe
+*
