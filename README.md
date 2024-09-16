@@ -25,7 +25,7 @@ The objective of this project is to predict whether a bank customer will churn (
 ## 3. Approach to the problem
 
 ### Load the Data
-Upload the given data and create a dataframe for further statistical analysis
+* Upload the given data and create a dataframe for further statistical analysis
 
 ### Exploaratory Data Analysis:
 * A detailed exploaration of the data is done to understand the key features
