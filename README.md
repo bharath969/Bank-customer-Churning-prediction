@@ -36,12 +36,12 @@ Upload the given data and create a dataframe for further statistical analysis
 
 ### Feature Engineering
 * `Encoding Categorical Variables:`
-> 1. Gender was encoded using LabelEncoder.
-> 2. Geography was transformed using OneHotEncoder
+>  Gender was encoded using LabelEncoder.
+>  Geography was transformed using OneHotEncoder
 * `Drop Unnecessary Columns:`
-> * Drop the unwanted columns (`RowNumber`,`CustomerId`,`Surname`)
+>  Drop the unwanted columns (`RowNumber`,`CustomerId`,`Surname`)
 * `Scaling the features`
-> * Scale the data using standard scaler
+>  Scale the data using standard scaler
 * Save these encoders and scalers for further use
 
 ### Create ANN Model
@@ -50,7 +50,7 @@ Upload the given data and create a dataframe for further statistical analysis
 > * Optimizer =Adam,loss=Binarycrossentrophy
 > * Activation functions (relu and sigmoid) were used
 * `Callbacks and logs:`
-> * ensorBoard was used to monitor the training process, and callbacks were added for early stopping and performance tracking.
+>  ensorBoard was used to monitor the training process, and callbacks were added for early stopping and performance tracking.
 
 ### Evaluation Metrics
 * The model achieved an accuracy score of 87% accuracy on the test set, which indicates reasonable performance for predicting customer churn.
