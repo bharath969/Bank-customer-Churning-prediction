@@ -1,9 +1,9 @@
 # Predicting Bank Customer Churn Using Machine Learning
 
-## 1.Problem Statement
+## 1. Problem Statement
 The objective of this project is to predict whether a bank customer will churn (i.e., leave the bank) based on a set of customer attributes. By analyzing variables such as credit score, age, account balance, and customer activity, the goal is to build a machine learning model that can accurately identify customers at risk of churn. This will help the bank take proactive measures to retain valuable customers and reduce churn rates
 
-## 2.Dataset
+## 2. Dataset
 
 | **Column Name**     | **Description**                                                                                  |
 |---------------------|--------------------------------------------------------------------------------------------------|
@@ -22,7 +22,7 @@ The objective of this project is to predict whether a bank customer will churn (
 | **EstimatedSalary**  | The estimated annual salary of the customer.                                                     |
 | **Exited**           | Indicates whether the customer has churned (left the bank) (0 = No, 1 = Yes).                    |
 
-## 3.Approach to the problem
+## 3. Approach to the problem
 
 ### Load the Data
 Upload the given data and create a dataframe for further statistical analysis
@@ -53,10 +53,10 @@ Upload the given data and create a dataframe for further statistical analysis
 > * ensorBoard was used to monitor the training process, and callbacks were added for early stopping and performance tracking.
 
 ### Evaluation Metrics
-* The model achieved an accuracy score of 87% on the test set, which indicates reasonable performance for predicting customer churn.
+* The model achieved an accuracy score of 87% accuracy on the test set, which indicates reasonable performance for predicting customer churn.
 
   
-## 4.Conclusions
+## 4. Conclusions
 This project demonstrates the use of  artificial neural network (ANN)  to predict customer churn in a banking environment. The model's ability to predict churn with a high degree of accuracy(87%) allows banks to focus on retention strategies for at-risk customers. Further improvements could involve refining the model architecture, experimenting with more complex models, and incorporating additional customer features for enhanced accuracy.
 
 
