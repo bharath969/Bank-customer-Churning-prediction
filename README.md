@@ -45,11 +45,11 @@ The objective of this project is to predict whether a bank customer will churn (
 * Save these encoders and scalers for further use
 
 ### Create ANN Model
-* `Model Architecture:`
+* **`Model Architecture:`**
 > * A fully connected sequential neural network model was created using Dense layers.
 > * Optimizer =Adam,loss=Binarycrossentrophy
 > * Activation functions (relu and sigmoid) were used
-* `Callbacks and logs:`
+* **`Callbacks and logs:`**
 > * ensorBoard was used to monitor the training process, and callbacks were added for early stopping and performance tracking.
 
 ### Evaluation Metrics
