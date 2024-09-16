@@ -35,9 +35,13 @@ Upload the given data and create a dataframe for further statistical analysis
 > * Count plots showing customer breakdowns by features such as Gender, HasCrCard, and Geography.
 
 ### Feature Engineering
-* Convert the categorical values to numerical (`Gender using labelencoder`,`Geography using onehot encoder`)
-* Drop the unnecessary columns (`RowNumber`,`CustomerId`,`Surname`)
-* Scale the data using standard scaler
+* `Encoding Categorical Variables:`
+> * Gender was encoded using LabelEncoder.
+> * Geography was transformed using OneHotEncoder
+* `Drop Unnecessary Columns:`
+> * Drop the unwanted columns (`RowNumber`,`CustomerId`,`Surname`)
+* `Scaling the features`
+> * Scale the data using standard scaler
 * Save these encoders and scalers for further use
 
 ### Create ANN Model
@@ -47,21 +51,12 @@ Upload the given data and create a dataframe for further statistical analysis
 > * Activation functions (relu and sigmoid) were used
 * `Callbacks and logs:`
 > * ensorBoard was used to monitor the training process, and callbacks were added for early stopping and performance tracking.
-### Metrics
-* An Accuracy score of 87% is achieved
-### Input Data and predictions
-* input_data={'CreditScore':600,
-            'Geography':'France',
-            'Gender':'Male',
-            'Age':40,
-            'Tenure':3,
-            'Balance':60000,
-            'NumOfProducts':2,
-            'HasCrCard':1,
-            'IsActiveMember':1,
-            'EstimatedSalary':50000 }
-  * Create a function to convert the abov einput data for the model requirements
+
+### Evaluation Metrics
+* The model achieved an accuracy score of 87% on the test set, which indicates reasonable performance for predicting customer churn.
+
   
-## Conclusions
+## 4.Conclusions
+This project demonstrates the use of  artificial neural network (ANN)  to predict customer churn in a banking environment. The model's ability to predict churn with a high degree of accuracy(87%) allows banks to focus on retention strategies for at-risk customers. Further improvements could involve refining the model architecture, experimenting with more complex models, and incorporating additional customer features for enhanced accuracy.
 
 
