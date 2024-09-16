@@ -51,8 +51,9 @@ The objective of this project is to predict whether a bank customer will churn (
 > * A fully connected sequential neural network model was created using Dense layers.
 > * Optimizer =Adam,loss=Binarycrossentrophy
 > * Activation functions (relu and sigmoid) were used
+> * Trained the model using train sets and used test sets for validation purpose
 * **`Callbacks and logs:`**
-> * ensorBoard was used to monitor the training process, and callbacks were added for early stopping and performance tracking.
+> * TensorBoard was used to monitor the training process, and callbacks were added for early stopping and performance tracking.
 
 ### Evaluation Metrics
 * The model achieved an accuracy score of 87% accuracy on the test set, which indicates reasonable performance for predicting customer churn.
