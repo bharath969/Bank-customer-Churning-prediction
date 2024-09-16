@@ -1,9 +1,9 @@
 # Predicting Bank Customer Churn Using Machine Learning
 
-## Problem Statement
+## 1.Problem Statement
 The objective of this project is to predict whether a bank customer will churn (i.e., leave the bank) based on a set of customer attributes. By analyzing variables such as credit score, age, account balance, and customer activity, the goal is to build a machine learning model that can accurately identify customers at risk of churn. This will help the bank take proactive measures to retain valuable customers and reduce churn rates
 
-## Dataset
+## 2.Dataset
 
 | **Column Name**     | **Description**                                                                                  |
 |---------------------|--------------------------------------------------------------------------------------------------|
@@ -22,7 +22,7 @@ The objective of this project is to predict whether a bank customer will churn (
 | **EstimatedSalary**  | The estimated annual salary of the customer.                                                     |
 | **Exited**           | Indicates whether the customer has churned (left the bank) (0 = No, 1 = Yes).                    |
 
-## Approach to the problem
+## 3.Approach to the problem
 
 ### Load the Data
 Upload the given data and create a dataframe for further statistical analysis
@@ -35,15 +35,18 @@ Upload the given data and create a dataframe for further statistical analysis
 > * Count plots showing customer breakdowns by features such as Gender, HasCrCard, and Geography.
 
 ### Feature Engineering
-* Converting the categorical values to numerical (gender using labelencoder,location using onehot encoder)
-* Drop the unnecessary columns (RowNumber,CustomerId,Surname)
+* Convert the categorical values to numerical (`Gender using labelencoder`,`Geography using onehot encoder`)
+* Drop the unnecessary columns (`RowNumber`,`CustomerId`,`Surname`)
 * Scale the data using standard scaler
 * Save these encoders and scalers for further use
 
 ### Create ANN Model
-* Create a fully connected sequential Dense Layered model
-* Create logs and callbacks
-* Use Tensorboard to monitor the model
+* `Model Architecture:`
+> * A fully connected sequential neural network model was created using Dense layers.
+> * Optimizer =Adam,loss=Binarycrossentrophy
+> * Activation functions (relu and sigmoid) were used
+* `Callbacks and logs:`
+> * ensorBoard was used to monitor the training process, and callbacks were added for early stopping and performance tracking.
 ### Metrics
 * An Accuracy score of 87% is achieved
 ### Input Data and predictions
