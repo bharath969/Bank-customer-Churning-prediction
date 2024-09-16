@@ -28,7 +28,7 @@ The objective of this project is to predict whether a bank customer will churn (
 Upload the given data and create a dataframe for further statistical analysis
 
 ### Exploaratory Data Analysis:
-*.A detailed exploaration of the data is done to understand the key features
+* A detailed exploaration of the data is done to understand the key features
 * The data is heavyly skewed towards the people who will not churn.
 * `Visualizations:`
 > * Histograms of features like CreditScore, Age, and Balance to show their distribution.
