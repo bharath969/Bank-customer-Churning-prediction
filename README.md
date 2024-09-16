@@ -1,9 +1,10 @@
 # Predicting Bank Customer Churn Using Machine Learning
 
 ## Problem Statement
-To predict whether a bank customer churns or not with the given variables
+The objective of this project is to predict whether a bank customer will churn (i.e., leave the bank) based on a set of customer attributes. By analyzing variables such as credit score, age, account balance, and customer activity, the goal is to build a machine learning model that can accurately identify customers at risk of churn. This will help the bank take proactive measures to retain valuable customers and reduce churn rates
 
 ## Dataset
+
 | **Column Name**     | **Description**                                                                                  |
 |---------------------|--------------------------------------------------------------------------------------------------|
 | **RowNumber**        | A unique identifier for each row in the dataset, typically used for indexing purposes.            |
