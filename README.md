@@ -36,8 +36,8 @@ Upload the given data and create a dataframe for further statistical analysis
 
 ### Feature Engineering
 * `Encoding Categorical Variables:`
-> * Gender was encoded using LabelEncoder.
-> * Geography was transformed using OneHotEncoder
+> 1. Gender was encoded using LabelEncoder.
+> 2. Geography was transformed using OneHotEncoder
 * `Drop Unnecessary Columns:`
 > * Drop the unwanted columns (`RowNumber`,`CustomerId`,`Surname`)
 * `Scaling the features`
