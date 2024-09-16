@@ -31,7 +31,9 @@ Upload the given data and create a dataframe for further statistical analysis
 *.A detailed exploaration of the data is done to understand the key features
 * The data is heavyly skewed towards the people who will not churn.
 * `Visualizations:`
->  * 
+> * Histograms of features like CreditScore, Age, and Balance to show their distribution.
+> * Count plots showing customer breakdowns by features such as Gender, HasCrCard, and Geography.
+
 ### Feature Engineering
 * Converting the categorical values to numerical (gender using labelencoder,location using onehot encoder)
 * Drop the unnecessary columns (RowNumber,CustomerId,Surname)
