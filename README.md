@@ -41,7 +41,7 @@ The objective of this project is to predict whether a bank customer will churn (
 * **`Drop Unnecessary Columns:`**
 > *  Drop the unwanted columns (`RowNumber`,`CustomerId`,`Surname`)
 * **`Split the data into Train and Test sets`**
-> * Using tarin test split from sklearn,we split the data into tarin and test sets with a `test size of 20%`
+> * Using train_test_split from sklearn,we split the data into train and test sets with a `test size of 20%`
 * **`Scaling the features`**
 > *  Scale the data using standard scaler
 * Save these encoders and scalers for further use
